@@ -1,0 +1,67 @@
+Variables 
+variables hum css ma apne properties ko reusable bananay ka liya use kartay han
+do types ka variables hotay han 
+
+
+1- Local Variable
+2- Global Variable
+
+
+1- Local Variable 
+local variable ma hum variable ko uska scope ka ander tak access kar saktay han 
+
+
+2- Global Variables 
+global variables hum apnay pooray html ka element ma acess kar saktay han q ka wo hamaray 
+root par define hotay han html ka tag ka ander 
+HTML document mein root element <html> hota hai.
+
+
+Pseudo Class
+Pseudo-class wo CSS ka keyword hota hai jo kisi element ki ek khaas haalat (state) ko style karne ke liye use hota hai, jaise hover hona, focus hona, ya checked hona.
+
+1. :link — Unvisited State
+Jab <a> tag ka link pehli dafa open nahi hua, yani unvisited ho, tab ki style.
+
+
+
+2. :visited — Visited State
+Jis link ko user pehle visit kar chuka ho, uski style.
+
+
+3. :hover — Hover State
+Jab user mouse ko kisi link ya button par le kar aata hai, tab ki style.
+
+4. :active — Active State
+Jab user element ko click kar raha hota hai, yani mouse button press ho aur chhuta nahi ho.
+
+
+
+5. first child 
+:first-child wo element select karta hai jo apne parent ke andar sab se pehla child ho
+
+
+6. last child 
+:last-child wo element select karta hai jo apne parent ke andar sab se aakhri child ho.
+
+
+7. nth child 
+:nth-child() ek pseudo-class hai jo kisi parent ke andar specific position wale children ko style karne ke liye use hoti hai.
+
+Formula
+an + b
+
+Part	Meaning
+a	Step size / gap (kitne-2 elements skip karne hain)
+n	Counter (0 se start hota hai aur 1, 2, 3… tak jata hai)
+b	Start position (kahan se counting start hogi)
+
+
+Pseudo Elements 
+Pseudo elements ma hum apnay kisi bhe element ka kisi specific part ko select kartay han
+
+
+::first-letter
+::first-line
+::after 
+::before

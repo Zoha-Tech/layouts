@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .btn:hover{
+    background-color: red;
+    color: black;
+} */
+
+.btn:link{
+    color: black;
+}
+
+.btn:visited{
+    color: red;
+}
+
+.btn:active{
+    background-color: rgb(106, 26, 205);
+    border: 1px solid green;
+}
+
+/* ul li:first-child{
+    background-color: blue;
+}
+
+
+ul li:last-child{
+    background-color: blue;
+} */
+
+/* nth child *
+/* an + b */
+
+ul li:nth-child(2n){
+    background-color: brown;
+}
+
+h1::first-letter{
+    background-color: palevioletred;
+}
+
+
+p::first-line{
+    background-color: palevioletred;
+}
+
+h1::after{
+    content: "#";
+}
+label::after{
+    content: "*";
+}
+
+
+.important::after{
+    content : "important";
+    background-color: red;
+    color: white;
+
+}

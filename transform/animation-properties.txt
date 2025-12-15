@@ -1,0 +1,73 @@
+CSS Transform 
+
+CSS transform property element par 2D ya 3D transformation apply kar ke usay rotate, scale, move, ya skew karne ki sahulat deti hai; 2D me element sirf X aur Y axis me transform hota hai, jabke 3D me X, Y aur Z axis ke saath depth aur perspective ka effect bhi milta hai.
+
+2D transform
+Transform Function
+
+Transform function wo choti choti functions hoti hain jo transform property ke andar likhi jati hain aur ye batati hain ke element ko kaise change karna hai, jaise move karna, ghumana, bara ya chota karna, ya tircha karna.
+
+
+
+1-translate()
+translate() function element ko uski current position se X aur Y axis ke hisaab se move karta hai.
+
+
+
+2-rotate
+rotate() function element ko ek fixed point ke around ghumane ke liye use hota hai, aur angle degree mein specify kiya jata hai.
+
+
+3-scale()
+scale() function element ki width aur height ko multiply karke usay bara ya chota karta hai.
+Units kaise dete hain?
+scale() unitless hota hai
+Values numbers hoti hain, jaise 1, 1.5, 0.5
+1 → original size
+>1 → element bara ho jata hai
+<1 → element chota ho jata hai
+
+
+4-skew()
+skew() function element ko X aur Y axis ke along tircha karne ke liye use hota hai.
+Unit kaise datay han ?
+skew() angle based hota hai
+
+
+
+5-matrix
+matrix() function CSS ka advanced 2D transform function hai jo translate, scale, skew aur rotate sab ko ek hi line mein combine kar deta hai.
+
+a- (scaleX) → element ki width ko multiply karta hai
+b- (skewY) → element ko X-axis ke along tilt karta hai
+c- (skewX) → element ko Y-axis ke along tilt karta hai
+d- (scaleY) → element ki height ko multiply karta hai
+e- (translateX) → element ko X-axis (right/left) move karta hai
+f- (translateY) → element ko Y-axis (up/down) move karta hai
+
+
+a,d → scale
+b,c → skew
+e,f → translate
+
+
+
+====================================================================================
+CSS Transition
+
+“CSS transition ek property hai jo kisi element ke CSS properties ko smoothly ek value se doosri value me change karne ki sahulat deti hai, ek specified duration ke andar.”
+
+
+1- transition property
+	transition-property: background-color;
+2- transition duration
+	transition-duration: 2s;
+3- transition-timing-function
+	linear → Constant speed, start se end tak uniform
+	ease → Slow start, fast middle, slow end (default)
+	ease-in → Slow start, fast end
+	ease-out → Fast start, slow end
+	ease-in-out → Slow start, fast middle, slow end (smooth combination)
+4- transition-delay
+	transition-delay: 0s;
+

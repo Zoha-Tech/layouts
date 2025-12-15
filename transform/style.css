@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: rgb(91, 201, 91);
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    transition: width 2s ease 2s, background-color 2s linear ;
+}
+
+
+/* Transform */
+.div-1{
+    /* transform: translate(30px,20px); */
+    /* transform: rotate(-20deg); */
+    /* transform: scale(0.5); */
+    /* transform: skew(10deg,50deg); */
+    /* transform: matrix(2,0,0,2,0,40deg); */
+}
+
+/* Transition */
+.div-1:hover{
+    width:300px;
+    background-color: red;
+}
